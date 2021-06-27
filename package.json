@@ -1,7 +1,7 @@
 {
   "name": "permission-vue",
   "description": "Utility permission vuejs",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "main": "./dist/bundle.mjs",
   "exports": {
     "require": "./dist/bundle.cjs",
@@ -28,7 +28,7 @@
     "build": "rollup -c"
   },
   "dependencies": {
-    "permission-engine": "^1.0.5"
+    "permission-engine": "^1.0.6"
   },
   "devDependencies": {
     "rollup-plugin-cleanup": "^3.2.1",
