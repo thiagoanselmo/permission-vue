@@ -1,7 +1,7 @@
 {
   "name": "permission-vue",
   "description": "Utility permission vuejs",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "./dist/bundle.mjs",
   "exports": {
     "require": "./dist/bundle.cjs",
