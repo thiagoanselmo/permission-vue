@@ -134,10 +134,10 @@ perf-regexes@^1.0.1:
   resolved "https://registry.yarnpkg.com/perf-regexes/-/perf-regexes-1.0.1.tgz#6da1d62f5a94bf9353a0451bccacf69068b75d0b"
   integrity sha512-L7MXxUDtqr4PUaLFCDCXBfGV/6KLIuSEccizDI7JxT+c9x1G1v04BQ4+4oag84SHaCdrBgQAIs/Cqn+flwFPng==
 
-permission-engine@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/permission-engine/-/permission-engine-1.0.4.tgz#73c9f8c0477362b95a95f1df4e257a8f6823dac4"
-  integrity sha512-U/GlFBvo8U+xGMtKum9pdViW8wYgS5vHj1e2HAZ9tvymQcxUCWKbGuGoJos+GUprX9rZSn96f8+OqAHus12V7A==
+permission-engine@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/permission-engine/-/permission-engine-1.0.6.tgz#c1b67c425ce62b7bda7e59a22c736573e22cea48"
+  integrity sha512-QvEvRAVW7UjIwCGI91G6iqx6A+DKsiWE4n+MMWNeAK3LvTWgcNl0LO0eMPsW5IX9Sy5PY2vxt+Jcq2wK3KpsPg==
 
 randombytes@^2.1.0:
   version "2.1.0"
