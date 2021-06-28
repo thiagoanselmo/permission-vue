@@ -29,7 +29,6 @@ console.log(permissionVue)
 
 ```
 
-
 ### Use `permission-vue`
 The `permission-vue` package can be used in various ways, giving the developer a freedom to choose the way to use it according to his project.
 Below we list the various ways to use the `permission-vue` package.
@@ -128,9 +127,7 @@ Below we list the various ways to use the `permission-vue` package.
      }
     ```
 
-### canAccess
-
-#### 1. Adding an ACL instance to the Vue prototype
+#### Adding an ACL instance to the Vue prototype
 
 ```javascript
     //
@@ -252,7 +249,6 @@ Below we list the various ways to use the `permission-vue` package.
     
       
 ```
-
 
 ### Class Error `ErrorPermissionACL` 
 
