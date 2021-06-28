@@ -90,7 +90,6 @@ Below we list the various ways to use the `permission-vue` package.
     //   
     export default {
        name: 'XYZ',
-       mixins: [permissionVue.localMixin],
    
        mounted () {
          const userRoles = ['user', 'todo:edit'];   
@@ -105,26 +104,26 @@ Below we list the various ways to use the `permission-vue` package.
    ```
 5. Using a local mixin in your components.
     
-    //
-    // YOUR COMPONENTS
-    //
     ```javascript
-     import permissionVue from 'permission-vue'
+   //
+   // YOUR COMPONENTS
+   //
+   import permissionVue from 'permission-vue'
    
-     export default {
-       name: 'XYZ',
-       mixins: [permissionVue.localMixin],
+   export default {
+     name: 'XYZ',
+     mixins: [permissionVue.localMixin],
    
-       mounted () {
-         const userRoles = ['user', 'todo:edit'];   
-         const roles = [
-           { $in: ['user'] }
-         ]; 
+     mounted () {
+       const userRoles = ['user', 'todo:edit'];   
+       const roles = [
+         { $in: ['user'] }
+       ]; 
            
-         const canAccess = this.$canAccess(userRoles, roles);
-         // output true
-       }
+       const canAccess = this.$canAccess(userRoles, roles);
+       // output true
      }
+   }
     ```
 
 #### Adding an ACL instance to the Vue prototype
