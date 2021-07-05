@@ -22,7 +22,7 @@ console.log(permissionVue)
  canAccess,
  ErrorPermissionACL,
  install,
- Instance,
+ ACL,
  globalMixin,
  localMixin
 }    
@@ -53,12 +53,12 @@ Below we list the various ways to use the `permission-vue` package.
      const canAccess =  permissionVue.canAccess(userRoles, roles);
      // output true   
     ```
-3. Using management instance.
+3. Using management ACL.
     ```javascript
      import Vue from 'vue'
      import permissionVue from 'permission-vue'
      
-     const acl = new permissionVue.Instance();
+     const acl = new permissionVue.ACL();
    
      // Setter userRoles  
      acl.userRoles = ['user', 'todo:edit'];
